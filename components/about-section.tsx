@@ -63,9 +63,9 @@ export function AboutSection() {
 
             <div className=" text-foreground/80 font-[family-name:var(--font-montserrat)] leading-relaxed">
               <p className="text-lg">
-                Lubię sprwiać uśmiechy na twarzach ludzi a przeciez dobrze wiemy
-                co człowieka najbardziej zadowoli. Pywszne zimne drinki! <br />Z
-                moją pasją i doświadczeniem, zadne wydarzenie nie bedzie
+                Lubię sprwiać uśmiechy na twarzach ludzi, a przecież dobrze
+                wiemy co człowieka najbardziej zadowoli. Pyszne zimne drinki!{" "}
+                <br />Z moją pasją i doświadczeniem, żadne wydarzenie nie bedzie
                 niewypałem!
               </p>
             </div>

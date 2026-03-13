@@ -37,7 +37,7 @@ export function ServicesSection() {
     <section
       id="uslugi"
       ref={ref}
-      className="py-24 md:py-32 bg-card relative overflow-hidden"
+      className="py-16 md:py-32 bg-card relative overflow-hidden"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
@@ -67,7 +67,7 @@ export function ServicesSection() {
           </h2>
 
           <p className="text-foreground/70 font-[family-name:var(--font-montserrat)] leading-relaxed">
-            Prywożę ze sobą pełne wyposażenie, składniki najwyższej jakości i
+            Przywożę ze sobą pełne wyposażenie, składniki najwyższej jakości i
             elegancką zastawę. Ty cieszysz się imprezą.
           </p>
         </div>
@@ -84,14 +84,14 @@ export function ServicesSection() {
               }`}
               style={{ transitionDelay: `${index * 100 + 200}ms` }}
             >
-              <div className="h-full bg-background/50 backdrop-blur-sm border border-border/50 rounded-4xl p-8 hover:border-primary/50 hover:bg-background/80 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1">
+              <div className="h-full bg-background/50 backdrop-blur-sm border border-border/80 rounded-4xl p-8 hover:border-primary/50 hover:bg-background/80 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1">
                 {/* Icon */}
-                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 group-hover:scale-110 transition-all duration-500">
+                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 group-hover:scale-110 transition-all duration-500">
                   <service.icon className="w-6 h-6 text-primary" />
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-serif font-semibold text-foreground mb-4 group-hover:text-primary transition-colors duration-300">
+                <h3 className="text-xl font-serif font-semibold text-foreground mb-2 group-hover:text-primary transition-colors duration-300">
                   {service.title}
                 </h3>
 

@@ -22,8 +22,7 @@ const steps = [
     icon: Wine,
     number: "03",
     title: "Imprezka!",
-    description:
-      "Serwuję pyszne koktajle i napoje, gwaratując świetną atmosferę! ;)",
+    description: "Serwuję pyszne drinki, gwaratując świetną atmosferę! ;)",
   },
 ];
 

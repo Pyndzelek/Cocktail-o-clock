@@ -15,10 +15,8 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 
-import type { Metadata } from "next";
-
 export const metadata: Metadata = {
-  title: "Cocktail o'clock | Mobilny Bar na Twoje Wydarzenie",
+  title: "Cocktail o'clock | Mobilny bar na Twoje wydarzenie",
   description: "Jestem Kamila i chętnie wpadnę rozkręcić twoją imprezkę",
   keywords: [
     "mobilny bar",
@@ -34,7 +32,7 @@ export const metadata: Metadata = {
 
   // 1. Add Open Graph metadata (for Facebook, LinkedIn, Discord, etc.)
   openGraph: {
-    title: "Cocktail o'clock | Mobilny Bar na Twoje Wydarzenie",
+    title: "Cocktail o'clock | Mobilny bar na Twoje wydarzenie",
     description: "Jestem Kamila i chętnie wpadnę rozkręcić twoją imprezkę!",
     url: "https://cocktail-o-clock.vercel.app/",
     siteName: "Cocktail o'clock",
@@ -52,7 +50,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Cocktail o'clock | Mobilny Bar na Twoje Wydarzenie",
+    title: "Cocktail o'clock | Mobilny bar na Twoje wydarzenie",
     description: "Jestem Kamila i chętnie wpadnę rozkręcić twoją imprezkę",
     images: ["/images/kamila.jpeg"],
   },
