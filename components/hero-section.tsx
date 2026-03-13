@@ -23,10 +23,10 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
+      <div className="relative z-10 container mx-auto px-2 md:px-6 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Decorative Line */}
-          <div className="flex items-center justify-center gap-4 mb-8 animate-fade-in">
+          <div className="flex items-center justify-center gap-4 mb-4 animate-fade-in">
             <div className="h-px w-12 bg-primary/60" />
             <span className="text-primary font-[family-name:var(--font-montserrat)] text-xs uppercase tracking-[0.3em]">
               Usługa barmaśka
@@ -35,10 +35,10 @@ export function HeroSection() {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-light text-foreground mb-6 leading-tight text-balance animate-fade-in-up">
-            Mobilny Bar na
-            <span className="block font-semibold text-primary italic mt-2">
-              Twoje Wydarzenie
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-light text-foreground mb-4 leading-tight text-balance animate-fade-in-up">
+            Mobilny bar na
+            <span className="block font-semibold text-primary italic leading-tight">
+              Twoje wydarzenie
             </span>
           </h1>
 
@@ -52,7 +52,7 @@ export function HeroSection() {
             <Button
               asChild
               size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary/90 font-[family-name:var(--font-montserrat)] text-sm uppercase tracking-[0.2em] px-10 py-6 h-auto rounded-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/20"
+              className="bg-primary/90 text-primary-foreground hover:bg-primary/90 font-[family-name:var(--font-montserrat)] text-sm uppercase tracking-[0.2em] px-7 py-5 h-auto rounded-4xl transition-all duration-300 hover:shadow-lg hover:shadow-primary/20"
             >
               <Link href="#kontakt">Zapytaj o termin</Link>
             </Button>

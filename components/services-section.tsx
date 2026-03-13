@@ -84,7 +84,7 @@ export function ServicesSection() {
               }`}
               style={{ transitionDelay: `${index * 100 + 200}ms` }}
             >
-              <div className="h-full bg-background/50 backdrop-blur-sm border border-border/50 rounded-lg p-8 hover:border-primary/50 hover:bg-background/80 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1">
+              <div className="h-full bg-background/50 backdrop-blur-sm border border-border/50 rounded-4xl p-8 hover:border-primary/50 hover:bg-background/80 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1">
                 {/* Icon */}
                 <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 group-hover:scale-110 transition-all duration-500">
                   <service.icon className="w-6 h-6 text-primary" />
