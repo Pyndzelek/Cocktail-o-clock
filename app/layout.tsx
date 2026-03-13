@@ -15,6 +15,8 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 
+import type { Metadata } from "next";
+
 export const metadata: Metadata = {
   title: "Cocktail o'clock | Mobilny Bar na Twoje Wydarzenie",
   description: "Jestem Kamila i chętnie wpadnę rozkręcić twoją imprezkę",
@@ -29,6 +31,32 @@ export const metadata: Metadata = {
     "Polska",
   ],
   authors: [{ name: "Kamila" }],
+
+  // 1. Add Open Graph metadata (for Facebook, LinkedIn, Discord, etc.)
+  openGraph: {
+    title: "Cocktail o'clock | Mobilny Bar na Twoje Wydarzenie",
+    description: "Jestem Kamila i chętnie wpadnę rozkręcić twoją imprezkę!",
+    url: "https://cocktail-o-clock.vercel.app/",
+    siteName: "Cocktail o'clock",
+    images: [
+      {
+        url: "/images/kamila.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Kamila z mobilnego baru Cocktail o'clock",
+      },
+    ],
+    locale: "pl_PL",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Cocktail o'clock | Mobilny Bar na Twoje Wydarzenie",
+    description: "Jestem Kamila i chętnie wpadnę rozkręcić twoją imprezkę",
+    images: ["/images/kamila.jpeg"],
+  },
+
   icons: {
     icon: [
       {
